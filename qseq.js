@@ -3,7 +3,7 @@
  * http://codegolf.stackexchange.com/questions/86880/hofstadter-q-sequence/86926#86926
  */
 
-a=(n)=>{return n>2?a(n-a(n-1))+a(n-a(n-2)):1;}
+a=(n)=>{return n>2?a(n-a(n-1))+a(n-a(n-2)):1}
 
 /*
  * Test ...
